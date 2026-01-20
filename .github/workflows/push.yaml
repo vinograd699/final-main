@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: tfef/hello-golang
+          images: vinograd699/hello-golang
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
